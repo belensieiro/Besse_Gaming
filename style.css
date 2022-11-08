@@ -1,0 +1,563 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+a {
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+}
+
+/* INDEX */
+
+/* Comienza navegación */
+.logo-menu {
+  position: absolute;
+  top: 0.5rem;
+  left: 1.5rem;
+  max-width: 100%;
+  width: 40px;
+}
+
+.main-menu {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+.main-menu_item {
+  font-family: "Bebas Neue", cursive;
+  padding: 1em;
+}
+
+a:hover {
+  color: rgb(100, 23, 223);
+}
+
+.main-menu_link {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Termina navegación */
+/* Comienza la cabecera */
+
+.cabecera {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: contain;
+  object-position: center;
+}
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  font-size: 50px;
+  background-color: black;
+}
+
+h2 {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+.mobile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* Termina cabecera */
+
+.space0 {
+  height: 5rem;
+}
+
+.space {
+  height: 5rem;
+}
+
+/* comienza prom */
+
+.h3-a {
+  margin: 50px 0px 50px;
+  font-size: 35px;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+}
+
+.prom1 {
+  padding-top: 1.5em;
+}
+
+/* termina prom */
+/* comienza text-work */
+
+.text-work {
+  background-image: linear-gradient(to right, rgb(100, 23, 223) 0%, black 100%);
+}
+
+.h3-b {
+  font-size: 35px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+}
+
+.p-work {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 1.5rem;
+  color: white;
+  margin: 0px 100px 0px 100px;
+}
+
+/* termina text-work */
+/* comienza ejemplos */
+.e-card {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card-ej {
+  max-width: 350px;
+  width: 30%;
+  text-align: center;
+  padding: 40px 5px;
+  background: black;
+  border-radius: 15px;
+}
+
+.p-ej {
+  margin: 10px 0 10px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.card-ej img {
+  border-radius: 15px 15px 15px 15px;
+  max-width: 100%;
+}
+
+/* termina ejemplos */
+/* comienza productos */
+
+.productos {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 5em;
+}
+
+.border-space {
+  border-top: 2px solid rgb(100, 23, 223);
+  margin-bottom: 3em;
+}
+
+/* termina productos*/
+/* Comienza help */
+
+.h3-h {
+  font-size: 25px;
+  text-align: left;
+  margin-left: 2.5em;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+}
+
+.help-container {
+  margin: 4em;
+}
+
+.help-box {
+  display: flex;
+  margin-bottom: 3px;
+  align-items: center;
+}
+
+.box1 {
+  margin: 1.5em;
+  padding: 1.5em;
+  background-color: rgb(100, 23, 223);
+  border-radius: 10px 10px 10px 10px;
+}
+
+/* termina help */
+/* comienza social media */
+
+.cont-all {
+  height: 100%;
+  border-top: 2px solid rgb(100, 23, 223);
+  border-bottom: 1px solid rgb(100, 23, 223);
+}
+
+.contenedor-redes {
+  display: flex;
+  margin-left: 4em;
+}
+
+.box-logo {
+  padding-top: 1em;
+  padding-left: 1.5em;
+  display: flex;
+  height: 90px;
+  width: 90px;
+}
+
+.box-logo img {
+  height: 100%;
+}
+
+.div-mother {
+  display: flex;
+  margin: 40px;
+}
+
+.social-icon {
+  justify-content: space-between;
+  flex-direction: row;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(100, 23, 223);
+  margin-left: 5px;
+  border-radius: 10px 3px 10px 3px;
+}
+
+.div-mother img {
+  height: 100%;
+}
+
+/* termina social media */
+/* footer */
+
+.last-space {
+  border-top: 1px solid rgb(100, 23, 223);
+}
+
+.contenedor-data {
+  border-top: 1px solid rgb(100, 23, 223);
+  padding-top: 5px;
+  padding-right: 20px;
+  text-align: right;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  color: white;
+}
+/* Termina footer */
+/* TERMINA INDEX */
+
+/* PRODUCTOS */
+/* Comienza presentacion de productos */
+
+.container-productos {
+  margin: 5em;
+}
+
+.h3-p {
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+}
+
+.p-p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 1.5rem;
+  color: white;
+}
+
+.note2 {
+  font-size: 15px;
+  text-align: left;
+  padding-top: 1.5em;
+  padding-bottom: 3rem;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+/* Termina presentacion de productos*/
+/* comienza cabecera y banner */
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  background: linear-gradient(
+    90deg,
+    rgb(0, 0, 0) 0%,
+    rgb(15, 15, 15) 24%,
+    rgb(12, 3, 26) 50%,
+    rgb(0, 0, 0) 79%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.banner h2 {
+  z-index: 2;
+}
+
+.banner-background {
+  position: absolute;
+  z-index: 1;
+  max-width: 40%;
+}
+
+.banner-background.active {
+  animation-name: fadeInDown;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.banner-blur {
+  position: absolute;
+  z-index: -1;
+  max-width: 50%;
+}
+/* termina cabecera y banner */
+/* cards */
+
+.card {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card-item {
+  max-width: 350px;
+  width: 30%;
+  box-shadow: 0 0 5px white;
+  text-align: center;
+  padding: 40px 5px;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.p-card {
+  margin: 30px 0 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-boton {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  max-width: 100%;
+  width: 180px;
+  text-align: center;
+  padding: 20px 0;
+  text-decoration: none;
+  border-radius: 35px;
+  overflow: hidden;
+  transition: transform 0.25s;
+}
+
+.card-boton:hover {
+  transform: scale(1.1);
+}
+
+.card-item img {
+  max-width: 100%;
+}
+
+/* termina cards */
+/* CIERRE PRODUCTOS */
+
+/* MEDIA QUERIES*/
+@media screen and (max-width: 340px) {
+  .card-ej {
+    max-width: 100%;
+    width: 220px;
+    margin-top: 0.5em;
+    margin: 1em;
+  }
+  .card-item {
+    max-width: 100%;
+    width: 220px;
+    margin-top: 1em;
+    margin: 2em;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .cont-all {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .h3-p {
+    font-size: 30px;
+  }
+  .p-p {
+    margin: 0px;
+    font-size: 15px;
+  }
+  .banner-background {
+    max-width: 70%;
+  }
+
+  .banner-blur {
+    max-width: 90%;
+  }
+  .p-work {
+    margin: 0px 10px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .e-card {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-ej {
+    max-width: 100%;
+    width: 250px;
+    margin-top: 1em;
+    margin: 2em;
+  }
+
+  .box1 {
+    margin: 0px 10px 10px 0px;
+    padding: 30px;
+  }
+
+  .card {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-item {
+    max-width: 100%;
+    width: 250px;
+    margin-top: 1em;
+    margin: 2em;
+  }
+
+  .banner-background {
+    max-width: 70%;
+  }
+
+  .banner-blur {
+    max-width: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo-menu {
+    display: none;
+  }
+
+  .main-menu {
+    flex-direction: row;
+  }
+  .banner-background {
+    max-width: 70%;
+  }
+
+  .banner-blur {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .cabecera video {
+    display: none;
+  }
+  .space0 {
+    display: none;
+  }
+  .banner-background {
+    max-width: 60%;
+  }
+
+  .banner-blur {
+    max-width: 75%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .mobile {
+    display: none;
+  }
+
+  .banner-background {
+    max-width: 40%;
+  }
+
+  .banner-blur {
+    max-width: 50%;
+  }
+}
+
+/*Animacion Fade in de arriba*/
+@keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
