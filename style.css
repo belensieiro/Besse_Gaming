@@ -421,12 +421,20 @@ h2 {
 /* MEDIA QUERIES*/
 
 @media screen and (max-width: 310px) {
+  h1 {
+    font-size: 40px;
+  }  
+  .h3-a {
+    font-size: 30px;
+  }
+  .h3-b {
+    font-size: 30px;
+  }
   .card {
     padding-right: 60px;
   }
   .card-ej {
     padding-right: 36px;
-
   }
 }
 
