@@ -419,6 +419,17 @@ h2 {
 /* CIERRE PRODUCTOS */
 
 /* MEDIA QUERIES*/
+
+@media screen and (max-width: 310px) {
+  .card {
+    padding-right: 60px;
+  }
+  .card-ej {
+    padding-right: 36px;
+
+  }
+}
+
 @media screen and (max-width: 340px) {
   .card-ej {
     max-width: 100%;
