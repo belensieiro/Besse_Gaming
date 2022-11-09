@@ -61,3 +61,66 @@ a:hover {
 }
 
 /* Termina navegación */
+/* titulo */
+
+h1 {
+    font-family: "Bebas Neue", cursive;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+/* titulo */
+/* formulario contacto */
+
+.contenedor {
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+
+}
+
+label{
+    font-family: "Bebas Neue", cursive;
+    font-size: 15px;
+    color: white;
+
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+
+
+/* MEDIA QUERIES*/
+
+@media screen and (max-width: 415px) {
+    h1 {
+      font-size: 35px;
+    }  
+   p{
+     font-size: 15px;
+   }
+}
+
+@media screen and (min-width: 768px) {
+    .logo-menu {
+      display: none;
+    } 
+    .main-menu {
+      flex-direction: row;
+    }
+}
