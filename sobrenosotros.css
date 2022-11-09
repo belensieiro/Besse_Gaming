@@ -94,9 +94,9 @@ p{
 
 /* MEDIA QUERIES*/
 
-@media screen and (max-width: 310px) {
+@media screen and (max-width: 415px) {
     h1 {
-      font-size: 40px;
+      font-size: 35px;
     }  
    p{
      font-size: 15px;
