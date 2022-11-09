@@ -84,7 +84,13 @@ p{
     color: white;
 }
 
-
+  /* footer */
+  .p-data{
+    font-size: 10px;
+    text-align: right;
+    padding-top: 20px;
+  }
+  /* Termina footer */
 
 /* MEDIA QUERIES*/
 
@@ -95,7 +101,7 @@ p{
    p{
      font-size: 15px;
    }
-  }
+}
 
 @media screen and (min-width: 768px) {
     .logo-menu {
