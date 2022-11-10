@@ -102,6 +102,14 @@ p{
   padding: 40px;
 }
 
+  /* footer */
+  .p-data{
+    font-size: 10px;
+    text-align: right;
+    margin-right: 30px;
+    padding-top: 20px;
+  }
+  /* Termina footer */
 
 
 
