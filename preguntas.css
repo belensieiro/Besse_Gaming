@@ -61,6 +61,45 @@ a:hover {
 }
 
 /* Termina navegación */
+/* titulo */
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+/* titulo */
+
+/* tarjetas */
+
+h2{
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  color: white;
+}
+
+p{
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-top: 30px;
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  background-color: rgba(77, 73, 73, 0.5);
+  width: 100%;
+  height: 300px;
+  border-radius: 40px;
+  margin-top: 50px;
+  padding: 30px;
+}
 
 
 
