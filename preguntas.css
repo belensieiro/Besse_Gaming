@@ -113,9 +113,10 @@ p{
 
 
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 767px) {
   h1 {
     font-size: 30px;
+    margin-bottom: 80px;
   }  
 
   h2{
@@ -126,6 +127,7 @@ p{
  }
  .contenedor {
   width: 100%;
+  border-radius: 0px;
  }
 
 }
@@ -137,16 +139,4 @@ p{
   .main-menu {
     flex-direction: row;
   }  
-}
-
-@media screen and (min-width: 1000px) {
-  .contenedor {
-
-     }   
-}
-
-@media screen and (min-width: 1500px) {
-  .contenedor {
-
-     }   
 }
